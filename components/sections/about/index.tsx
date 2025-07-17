@@ -58,62 +58,48 @@ export default function AboutSection() {
             className='text-muted-foreground'
           >
             <strong>
-              I&apos;m Aga Kadela — I build software that works, and I fix the
-              stuff that doesn&apos;t.
-            </strong>
-            <br />
-            <br />I work solo, full-stack, and fast. Mostly with{' '}
-            <strong>Next.js, React, Supabase, Tailwind, TypeScript</strong>, and
-            whatever else it takes to get the job done right. <br />
-            <br />
-            Some people hire me to build from scratch. Others bring me in when
-            things are broken —{' '}
-            <strong>
-              slow apps, half-built MVPs, ChatGPT-generated code, or no-code
-              experiments
-            </strong>{' '}
-            that hit their limit. <br />
-            <br />
-            Either way, I build it clean and make sure it runs the way it
-            should.
-            <br />
-            <br />
-            <span className='font-semibold'>📌 What I Do Best:</span>
-            <br />✅ <strong>Fix broken code</strong> – Debugging, crashes,
-            broken logic, and AI/LLM features that don&apos;t work right.
-            <br />✅ <strong>Improve performance</strong> – Speed, Lighthouse,
-            Core Web Vitals, smooth UX, fast data.
-            <br />✅ <strong>Scale apps properly</strong> – Clean architecture,
-            database upgrades, API optimization.
-            <br />✅ <strong>Build from zero</strong> – Full-stack Next.js +
-            Typescript apps, custom dashboards, and workflows.
-            <br />
-            ✅ AI Features – Gemini/OpenAI-powered chat, content tools,
-            automations, vector search.
-            <br />
-            <br />
-            <span className='font-semibold'>📌 Why Work With Me?</span>
-            <br />
-            🔹 I focus on real results, not just code. Your web app should run
-            fast, handle traffic, and grow without breaking—I make sure it does.
-            <br />
-            🔹 I work fast and efficiently. No endless back-and-forth, no
-            unnecessary delays—just solutions that work.
-            <br />
-            🔹 I don’t just fix problems—I prevent them. Whether optimizing an
-            existing app or building something new, I ensure it’s scalable,
-            maintainable, and built for the long run.
-            <br />
-            <br />
-            <span className='font-semibold'>📌 Let&apos;s Talk</span>
-            <br />
-            If your app needs fixing, optimizing, scaling, or building,
-            let&apos;s connect.
-            <br />
-            <a href='#contact' className='text-primary hover:underline'>
-              ✅ Get in Touch
-            </a>
-          </motion.p>
+  I&apos;m Omar El Hedfi — I build secure, scalable web solutions and automate the pipelines behind them.
+</strong>
+<br />
+<br />I work full-stack, DevSecOps, and fast. Mostly with{' '}
+<strong>Next.js, React, TypeScript, Docker, Kubernetes, Jenkins</strong>, and
+whatever else it takes to deliver production-ready solutions. <br />
+<br />
+Some teams hire me to build from scratch. Others bring me in when{' '}
+<strong>
+  CI/CD pipelines fail, deployments break, security scans explode, or apps need AI-powered features
+</strong>{' '}
+to stay ahead. <br />
+<br />
+Either way, I make it clean, secure, and built to last.
+<br />
+<br />
+<span className='font-semibold'>📌 What I Do Best:</span>
+<br />✅ <strong>Build Secure Pipelines</strong> – CI/CD with Jenkins, Trivy, SonarQube, Hadolint, Dockle.
+<br />✅ <strong>DevSecOps Automation</strong> – Docker/Kubernetes deployments, GitHub Actions, security-first workflows.
+<br />✅ <strong>AI Integration</strong> – LLaMA, Gemini, OpenAI features like auto-report summaries and smart chat.
+<br />✅ <strong>Full Stack Development</strong> – Next.js, React, TypeScript, REST APIs.
+<br />✅ <strong>Performance Optimization</strong> – Faster builds, scalable infrastructure, clean architecture.
+<br />
+<br />
+<span className='font-semibold'>📌 Why Work With Me?</span>
+<br />
+🔹 I combine development with **security and automation**—your apps run fast, scale safely, and pass audits.
+<br />
+🔹 I work efficiently—no endless loops, just working solutions.
+<br />
+🔹 I prevent future issues—everything is built to be **maintainable and future-proof**.
+<br />
+<br />
+<span className='font-semibold'>📌 Let&apos;s Talk</span>
+<br />
+If you need **a secure pipeline, a scalable app, or AI-driven features**, let&apos;s connect.
+<br />
+<a href='#contact' className='text-primary hover:underline'>
+  ✅ Get in Touch
+</a>
+
+ </motion.p>
         </div>
       </div>
     </div>

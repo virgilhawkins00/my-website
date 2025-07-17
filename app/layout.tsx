@@ -12,54 +12,56 @@ const firaCode = Fira_Code({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://agakadela.com'),
+  metadataBase: new URL('https://omarelhedfi.vercel.app'),
   title: {
     default:
-      'Aga Kadela | Full Stack Product Engineer | AI Integration Specialist',
-    template: '%s | Aga Kadela',
+      'Omar El Hedfi | DevSecOps & Full Stack Developer | AI Integration Specialist',
+template: '%s | Omar El Hedfi',
   },
-  description:
-    'Full Stack Product Engineer specializing in Next.js, React, and AI Integration. Expert in building high-performance web applications with modern technologies.',
-  keywords: [
-    'Next.js Developer',
-    'React Developer',
-    'AI Integration',
-    'Full Stack Developer',
-    'Web Development',
-    'JavaScript',
-    'TypeScript',
-    'Frontend Developer',
-    'Software Engineer',
-    'Web Applications',
-    'Performance Optimization',
-    'Aga Kadela',
-  ],
-  authors: [{ name: 'Aga Kadela' }],
-  creator: 'Aga Kadela',
+description: 
+  'DevSecOps Engineer & Full Stack Developer specializing in Next.js, React, CI/CD automation, and AI integration for secure and scalable web applications.',
+keywords: [
+  'DevSecOps Engineer',
+  'Full Stack Developer',
+  'Next.js Developer',
+  'React Developer',
+  'AI Integration',
+  'CI/CD Automation',
+  'Jenkins Pipelines',
+  'Docker & Kubernetes',
+  'Secure Web Development',
+  'Software Engineer',
+  'Web Applications',
+  'Performance Optimization',
+  'Omar El Hedfi',
+],
+
+  authors: [{ name: 'Omar El Hedfi' }],
+  creator: 'Omar El Hedfi',
   openGraph: {
     type: 'website',
     locale: 'en_US',
-    url: 'https://agakadela.com',
-    siteName: 'Aga Kadela Portfolio',
-    title: 'Aga Kadela | Full Stack Product Engineer',
+    url: 'https://omarelhedfi.vercel.app',
+    siteName: 'Omar El Hedfi Portfolio',
+    title: 'Omar El Hedfi | DevSecOps Engineer & Full Stack Developer',
     description:
-      'Full Stack Product Engineer specializing in Next.js, React, and AI Integration. Building high-performance web applications.',
+      'DevSecOps Engineer & Full Stack Developer specializing in Next.js, React, CI/CD automation, and AI integration for secure and scalable applications.',
     images: [
       {
         url: '/imgs/website.webp',
         width: 1200,
         height: 630,
-        alt: 'Aga Kadela - Full Stack Product Engineer',
+        alt: 'Omar El Hedfi - DevSecOps Engineer & Full Stack Developer',
       },
     ],
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Aga Kadela | Full Stack Product Engineer',
+    title: 'Omar El Hedfi | DevSecOps Engineer & Full Stack Developer',
     description:
-      'Full Stack Product Engineer specializing in Next.js, React, and AI Integration',
+      'Expert in building secure CI/CD pipelines, Next.js & React applications, and integrating AI for modern, scalable solutions.',
     images: ['/imgs/website.webp'],
-    creator: '@agakadela',
+    creator: '@OmarElHedfi',
   },
   robots: {
     index: true,
@@ -73,7 +75,7 @@ export const metadata: Metadata = {
     },
   },
   alternates: {
-    canonical: 'https://agakadela.com',
+    canonical: 'https://omarelhedfi.vercel.app',
   },
   icons: {
     icon: '/imgs/logo.webp',

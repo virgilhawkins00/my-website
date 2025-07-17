@@ -7,20 +7,25 @@ const defaultProps = {
   theme: themes.vsDark,
 };
 
-const codeSnippet = `// Welcome to my AI-Powered Portfolio! 🚀
-import { NextDeveloper } from 'agakadela';
-import { AIExpertise } from '@/skills';
+const codeSnippet = `// Welcome to my DevSecOps & AI-Powered Portfolio! 🚀
+import { DevSecOpsEngineer } from 'omarelhedfi';
+import { AIFeatures } from '@/skills';
 
-function createAmazingWebApp() {
+function buildSecureSmartSolutions() {
   const mySkills = {
-    webDev: ["Next.js", "React", "TS"],
-    aiTools: ["ChatGPT", "ML"],
-    passion: "Building AI web apps"
+    webDev: ["Next.js", "React", "TypeScript"],
+    devSecOps: ["Jenkins", "Docker", "Kubernetes", "Trivy", "SonarQube"],
+    aiTools: ["Gemini", "LLaMA3.2", "OpenAI"],
+    passion: "Building secure, scalable, and AI-driven applications"
   };
 
   return {
-    message: "Let's work together!",
-    services: ["Web Apps", "AI Features"],
+    message: "Let's innovate together!",
+    services: [
+      "Full-Stack Web Development",
+      "CI/CD & DevSecOps Pipelines",
+      "AI-Powered Features Integration"
+    ],
     contact: "Scroll down to connect →"
   };
 };`;

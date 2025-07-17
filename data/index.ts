@@ -7,26 +7,27 @@ import lukaskadela from '@/public/projects-imgs/lukaskadela.webp';
 
 const data = {
   home: {
-    name: 'Aga Kadela',
+    name: 'Omar El Hedfi',
     description:
-      'I Fix, Optimize & Build #Next_js & #React Apps - Powered by #AI', // # -> for css style, _ -> create space, __ -> creates dash
-    cvLink: '#contact',
+      'Empowering Code with Automation ⚙️ | #DevOps #AI #CloudNative #Coding ', // # -> for css style, _ -> create space, __ -> creates dash
+cvLink: 'https://drive.google.com/file/d/1zoXGMwgizxMh3oH_hVwpM7hFqREOppgG/view?usp=drive_link',
+
   },
   sidebar: {
     links: [
       {
         name: 'github',
-        link: 'https://github.com/agakadela',
+        link: 'https://github.com/OmarHdf',
         icon: Github,
       },
       {
         name: 'linkedin',
-        link: 'https://www.linkedin.com/in/agakadela/',
+        link: 'https://www.linkedin.com/in/omarelhedfi/',
         icon: Linkedin,
       },
       {
         name: 'youtube',
-        link: 'https://www.youtube.com/@agakadela',
+        link: 'https://www.youtube.com/channel/UCsKB5IwBz2MHwzIxjD1GY-g',
         icon: Youtube,
       },
     ],
@@ -36,19 +37,19 @@ const data = {
     projects: [
       {
         id: 1,
-        title: 'Coder Woman Platform',
+        title: 'Medina-Website',
         description:
-          'Platform to sell online courses, helping empower women in tech by making coding education accessible.\n\n Technologies Used: Next.js, React.js, CSS, Stripe API.',
+          'Medina-Website is a professional showcase site deployed through an automated DevSecOps-AI pipeline, featuring security scans (Trivy, Dockle, Hadolint, Dependency-Check) and Kubernetes deployment. An AI layer (LLaMA3.2 via Ollama) is integrated to automatically generate readable summaries of security reports at each CI/CD pipeline execution.',
         image: cw,
-        previewLink: 'https://coderwoman.com',
+        previewLink: 'https://github.com/OmarHdf/Medina-Website.git',
       },
       {
         id: 2,
-        title: 'RetroCech Website',
+        title: 'My Portfolio ',
         description:
           'A professional and visually appealing website that captures the vintage style of the business while ensuring smooth performance and easy navigation. \n\n Technologies Used: Next.js, Tailwind CSS, React.js.',
         image: retrocech,
-        previewLink: 'https://retrocech.com',
+        previewLink: 'https://github.com/OmarHdf/my-website.git',
       },
       {
         id: 3,
@@ -60,7 +61,7 @@ const data = {
       },
       {
         id: 4,
-        title: 'Personal Portfolio Website',
+        title: 'Portfolio Website',
         description:
           'A reliable and polished website that makes it easy for the expert to share their skills and impress potential clients or employers. \n\n Technologies Used: Next.js, React.js, CSS.',
         image: lukaskadela,
@@ -120,9 +121,9 @@ const data = {
       },
       {
         id: 9,
-        name: 'vitejs',
-        src: '/skills/vitejs.svg',
-        link: 'https://en.wikipedia.org/wiki/Vite_(software)',
+        name: 'Jenkins',
+        src: '/skills/Jenkins.svg',
+        link: 'https://en.wikipedia.org/wiki/Jenkins_(software)',
       },
       {
         id: 10,
@@ -163,8 +164,8 @@ const data = {
     ],
   },
   contact: {
-    email: 'aga.kadela.dev@gmail.com',
-    name: 'Aga Kadela',
+    email: 'omarhedfi99@gmail.com',
+    name: 'Omar El Hedfi',
   },
 };
 

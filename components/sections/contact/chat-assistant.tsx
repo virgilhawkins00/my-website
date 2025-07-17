@@ -32,7 +32,7 @@ const MESSAGE_HISTORY_LIMIT = 5;
 const QUICK_OPTIONS: QuickOption[] = [
   {
     text: "👩‍💻 Skills & Experience",
-    message: "Can you tell me about Aga's main skills and experience?",
+    message: "Can you tell me about Omar's main skills and experience?",
   },
   {
     text: "🚀 Project Collaboration",
@@ -41,11 +41,11 @@ const QUICK_OPTIONS: QuickOption[] = [
   },
   {
     text: "💼 Past Projects",
-    message: "Could you share some examples of Aga's past projects?",
+    message: "Could you share some examples of Omar's past projects?",
   },
   {
     text: "⚡ AI Integration",
-    message: "What kind of AI features can Aga implement in projects?",
+    message: "What kind of AI features can Omar implement in projects?",
   },
 ];
 
@@ -68,7 +68,7 @@ export default function ChatAssistant() {
     {
       role: "assistant",
       content:
-        "Hi! I'm Aga's AI assistant. I can help you learn more about her skills, experience, or how she can help with your project. What would you like to know?",
+        "Hi! I'm Omar's AI assistant. I can help you learn more about her skills, experience, or how she can help with your project. What would you like to know?",
       timestamp: new Date(),
     },
   ]);
@@ -204,7 +204,7 @@ export default function ChatAssistant() {
         {
           role: "assistant",
           content:
-            "Hi! I'm Aga's AI assistant. I can help you learn more about her skills, experience, or how she can help with your project. What would you like to know?",
+            "Hi! I'm Omar's AI assistant. I can help you learn more about her skills, experience, or how she can help with your project. What would you like to know?",
           timestamp: new Date(),
         },
       ]);
